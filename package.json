@@ -1,0 +1,23 @@
+{
+  "name": "webp-support",
+  "version": "1.0.0",
+  "description": "check webp image support in browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophister/webp-support.git"
+  },
+  "keywords": [
+    "webp",
+    "webp-image"
+  ],
+  "author": "Jess",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sophister/webp-support/issues"
+  },
+  "homepage": "https://github.com/sophister/webp-support#readme"
+}
