@@ -114,6 +114,9 @@ function restore() {
 }
 
 function check() {
+
+    isDone = false;
+
     var remain = 4;
     var list = ['lossy', 'lossless', 'alpha', 'animation'];
 
