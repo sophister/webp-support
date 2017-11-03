@@ -7,6 +7,9 @@
 
 var SAVE_DATA_KEY = '__j_webp_supp__';
 
+//避免多次初始化
+var inited = false;
+
 function error(str) {
     try {
         if (window.console && console.error) {
@@ -140,6 +143,13 @@ function check() {
 }
 
 singleton.init = function(config) {
+
+    if (inited) {
+        return;
+    }
+
+    inited = true;
+
     config = config || {};
     //should use cookie to store result,when localStorage.setItem fails
     cookieName = config.cookieName;
